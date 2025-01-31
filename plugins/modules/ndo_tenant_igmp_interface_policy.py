@@ -70,56 +70,56 @@ options:
   group_timeout:
     description:
     - The group timeout value in seconds.
-    - Defaults to C(260) when unset during creation.
-    - The valid range is from C(3) to C(65535).
+    - Defaults to 260 when unset during creation.
+    - The valid range is from 3 to 65535.
     type: int
   query_interval:
     description:
     - The query interval value in seconds.
-    - Defaults to C(125) when unset during creation.
-    - The valid range is from C(1) to C(18000).
+    - Defaults to 125 when unset during creation.
+    - The valid range is from 1 to 18000.
     type: int
   query_response_interval:
     description:
     - The query response interval value in seconds.
-    - Defaults to C(10) when unset during creation.
-    - The valid range is from C(1) to C(25).
+    - Defaults to 10 when unset during creation.
+    - The valid range is from 1 to 25.
     type: int
   last_member_count:
     description:
     - The last member query count value.
-    - Defaults to C(2) when unset during creation.
-    - The valid range is from C(1) to C(5).
+    - Defaults to 2 when unset during creation.
+    - The valid range is from 1 to 5.
     type: int
   last_member_response_time:
     description:
     - The last member query response time value in seconds.
-    - Defaults to C(1) when unset during creation.
-    - The valid range is from C(1) to C(25).
+    - Defaults to 1 when unset during creation.
+    - The valid range is from 1 to 25.
     type: int
   startup_query_count:
     description:
     - The startup query count value.
-    - Defaults to C(2) when unset during creation.
-    - The valid range is from C(1) to C(10).
+    - Defaults to 2 when unset during creation.
+    - The valid range is from 1 to 10.
     type: int
   startup_query_interval:
     description:
     - The startup query interval value in seconds.
-    - Defaults to C(31) when unset during creation.
-    - The valid range is from C(1) to C(18000).
+    - Defaults to 31 when unset during creation.
+    - The valid range is from 1 to 18000.
     type: int
   querier_timeout:
     description:
     - The querier timeout value in seconds.
-    - Defaults to C(255) when unset during creation.
-    - The valid range is from C(1) to C(65535).
+    - Defaults to 255 when unset during creation.
+    - The valid range is from 1 to 65535.
     type: int
   robustness_variable:
     description:
     - The robustness variable value.
-    - Defaults to C(2) when unset during creation.
-    - The valid range is from C(1) to C(7).
+    - Defaults to 2 when unset during creation.
+    - The valid range is from 1 to 7.
     type: int
   state_limit_route_map_uuid:
     description:
@@ -178,15 +178,15 @@ options:
   maximum_multicast_entries:
     description:
     - The maximum multicast entries value.
-    - Defaults to C(4294967295) when unset during creation.
-    - The valid range is from C(1) to C(4294967295).
+    - Defaults to 4294967295 when unset during creation.
+    - The valid range is from 1 to 4294967295.
     - This parameter is only applicable when the O(state_limit_route_map_uuid) or O(state_limit_route_map) is not empty.
     type: int
   reserved_multicast_entries:
     description:
     - The reserved multicast entries value.
-    - Defaults to C(0) when unset during creation.
-    - The valid range is from C(0) to C(4294967295).
+    - Defaults to 0 when unset during creation.
+    - The valid range is from 0 to 4294967295.
     type: int
   state:
     description:

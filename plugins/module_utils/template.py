@@ -269,6 +269,7 @@ class MSOTemplate:
         if uuid or name:  # Query a specific object
             return self.get_object_by_key_value_pairs("Node Settings", existing_objects, [KVPair("uuid", uuid) if uuid else KVPair("name", name)], fail_module)
         return existing_objects  # Query all objects
+
     def get_route_map_policy_for_multicast_uuid(self, route_map_policy_for_multicast_name):
         """
         Get the UUID of an Route Map Policy for Multicast by name.
